@@ -1,0 +1,16 @@
+@ClienteAPI_HostAddress = http://localhost:5155
+
+GET {{ClienteAPI_HostAddress}}/api/TiposDocumentos
+Accept: application/json
+
+###
+
+GET {{ClienteAPI_HostAddress}}/api/Clientes
+Accept: application/json
+
+###
+
+GET {{ClienteAPI_HostAddress}}/api/ClientesDocumentos
+Accept: application/json
+
+###
